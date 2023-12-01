@@ -1,0 +1,144 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#FFFFFF, #76C8EB);
+}
+
+.maincard {
+    background-color: #F6F6F6;
+    fill-opacity: 50%;
+    height: 550px;
+    width: 1100px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 25px;
+}
+
+.cardcari{
+    background-image: linear-gradient(#BFCDFF, #6981FF);
+    height: 550px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+input{
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: #5b5b5b;
+    padding-left: 20px;
+}
+
+#lokasi{
+    margin-top: 40px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#tanggal{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#derajat{
+    margin-top: 40px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+#cuaca{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#gbr_cuaca{
+    margin-top: 20px;
+    width: 150px;
+}
+
+#judul_highlight{
+    margin-top: 50px;
+    font-size: 24px;
+    color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+  }
+
+.card {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: #BFCDFF;
+    text-align: center;
+    background-color: #BFCDFF;
+  }
+
+.judul{
+    font-size: 16px;
+    color: #828282;
+}
+
+#tgl{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+#jam{
+    font-size: 36px;
+    color: black;
+}
+
+#km{
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+}
+
+#kondisi{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+#uv{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 48px;
+    color: black;
+}
+
+#suhu{
+    margin-top: 5px;
+    margin-bottom: 5ppx;
+    font-size: 48px;
+    color: black;
+}
+
+#humidity{
+    margin-top: 5px;
+    margin-bottom: 5ppx;
+    font-size: 48px;
+    color: black;
+}
+
+
+
