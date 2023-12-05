@@ -1,0 +1,252 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(253,254,254);
+    background: linear-gradient(180deg, rgba(253,254,254,1) 0%, rgba(121,201,235,1) 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-position: center;  
+  background-size: cover;
+ 
+}
+
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.maincard {     
+    
+    max-width: 1100px;
+    
+    border-radius: 25px;
+}
+
+.cardcari{
+    background-image: linear-gradient(#BFCDFF, #6981FF);
+    
+    border-radius: 25px 0px 0px 25px;
+}
+.input-group {
+    margin-top: 10px;
+}
+#searchInput{
+    
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5b5b5b;
+    padding-left: 20px;
+}
+
+#lokasi{
+    margin-top: 40px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#tanggal{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#derajat{
+    margin-top: 40px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+#cuaca{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#gbr_cuaca{
+    margin-top: 20px;
+    width: 100px;
+}
+.highlight {
+    background: rgba(255, 255, 255, 0.27);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.8px);
+    -webkit-backdrop-filter: blur(1.8px);
+    padding: 20px;
+    border-radius: 0px 25px 25px 0px;
+    box-sizing: border-box;
+    
+}
+#judul_highlight{
+    
+    font-size: 24px;
+    color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+  }
+
+.highlight .card {
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    
+    border: #BFCDFF;
+    text-align: center;
+    background-color: #FFF;
+  }
+
+.judul{
+    font-size: 16px;
+    color: #828282;
+}
+
+#tgl{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+#jam{
+    font-size: 36px;
+    color: black;
+}
+
+#km{
+    margin-top: 10px;
+    font-size: 36px;
+    color: black;
+}
+
+#kondisi{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+#uv{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: black;
+}
+
+#suhu{
+    margin-top: 5px;
+    margin-bottom: 5ppx;
+    font-size: 36px;
+    color: black;
+}
+
+#humidity{
+    margin-top: 5px;
+    margin-bottom: 5ppx;
+    font-size: 36px;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 767px) {
+   
+    .cardcari{
+        
+        border-radius: 25px 25px 25px 25px;
+    }
+    #lokasi{
+        margin-top: 20px;        
+    }
+        
+    
+    #derajat{
+        margin-top: 40px;
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+    
+    #cuaca{
+        margin-top: 10px;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    
+    #gbr_cuaca{
+       
+        width: 60px;
+    }
+
+    .highlight {
+        margin-top: 20px;
+        border-radius: 25px 25px 25px 25px;
+        
+    }
+    .card img{
+        width: 40px;
+        height: 40px;
+    }
+    .judul{
+        font-size: 14px;
+        
+    }
+    
+    #tgl{
+        margin-top: 5px;
+        font-size: 20px;
+        color: black;
+    }
+    
+    #jam{
+        font-size: 20px;
+        color: black;
+    }
+    
+    #km{
+        margin-top: 5px;
+        font-size: 20px;
+        color: black;
+    }
+    
+    #kondisi{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: black;
+    }
+    
+    #uv{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        color: black;
+    }
+    
+    #suhu{
+        margin-top: 10px;
+        margin-bottom: 5ppx;
+        font-size: 20px;
+        color: black;
+    }
+    
+    #humidity{
+        margin-top: 10px;
+        margin-bottom: 5ppx;
+        font-size: 20px;
+        color: black;
+    }
+    
+  }
+
+  @media screen and (max-width: 575px) {
+    
+  }
